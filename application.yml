@@ -1,1 +1,2 @@
-"greeting: Hello Cloud from application- develop"
+test-config:
+  message: "Message from config server -develop env!"
