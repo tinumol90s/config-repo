@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eac7ef0f-c597-47da-a064-652726ee6c30" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/authorization-api-v1-composite.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/authorization-api-v1-local.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
     </list>
     <disabled>
       <disabled_changelists>
@@ -55,5 +54,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
