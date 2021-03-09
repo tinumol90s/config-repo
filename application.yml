@@ -1,1 +1,2 @@
-"greeting: Hello Cloud from application" 
+test-config:
+  message: "Message from config server -master!"
