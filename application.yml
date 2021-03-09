@@ -1,2 +1,2 @@
 test-config:
-  message: "Message from config server -common env!"
+  message: "Message from config server -local env!"
