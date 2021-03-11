@@ -1,5 +1,5 @@
 test-config:
-  message1: "Message from config server env [common branch any application any profile]!"
+  message1: "Message from config server [common branch authorization-api-v1 application any profile] env!"
 
 management:
   endpoints:

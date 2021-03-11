@@ -1,5 +1,5 @@
 test-config:
-  message1: "Message from config server env [common branch any application any profile]!"
+  message1: "Message from config server [common branch gs-test-service-v1 application composite profile] env!"
 
 management:
   endpoints:
