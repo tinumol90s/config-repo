@@ -1,27 +1,27 @@
 test-config:
   message: "Message from config server [common branch authorization-api-v1 application local profile] env!"
 
-management:
-  endpoints:
-    web:
-      base-path: /management
-      exposure:
-        include: "*"
-        exclude: restart,shutdown,threaddump,heapdump
-
-# DynamoDB config
-data-config:
-  dynamodb:
-    base-packages: "com.gs.template.dynamodb"
-
-logging:
-  pattern:
-    level: "[app_log] %5p [${spring.application.name},%X{traceId:-},%X{spanId:-}, %X{x-env-name}]"
-
-logging-config:
-  enabled: true
-  access-log:
-    file-name: "gamestop-logback-access.xml"
-    pattern: "%t [access_log] ${spring.application.name} %h %A %l %u %r %q %D %s %b %i{x-env-name} %reqAttribute{x-trace-id} %reqAttribute{x-span-id}"
-  log-request-headers: x-env-name
-
+#management:
+#  endpoints:
+#    web:
+#      base-path: /management
+#      exposure:
+#        include: "*"
+#        exclude: restart,shutdown,threaddump,heapdump
+#
+## DynamoDB config
+#data-config:
+#  dynamodb:
+#    base-packages: "com.gs.template.dynamodb"
+#
+#logging:
+#  pattern:
+#    level: "[app_log] %5p [${spring.application.name},%X{traceId:-},%X{spanId:-}, %X{x-env-name}]"
+#
+#logging-config:
+#  enabled: true
+#  access-log:
+#    file-name: "gamestop-logback-access.xml"
+#    pattern: "%t [access_log] ${spring.application.name} %h %A %l %u %r %q %D %s %b %i{x-env-name} %reqAttribute{x-trace-id} %reqAttribute{x-span-id}"
+#  log-request-headers: x-env-name
+#
