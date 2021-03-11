@@ -1,2 +1,2 @@
 test-config:
-  message: "Message from config server -test env!"
+  message: "Message from config server [test branch any application any profile] env!"
