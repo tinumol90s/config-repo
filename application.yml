@@ -1,2 +1,10 @@
 test-config:
   message: "Message from config server -common env!"
+
+management:
+  endpoints:
+    web:
+      base-path: /management
+      exposure:
+        include: "*"
+        exclude: restart,shutdown,threaddump,heapdump
