@@ -1,5 +1,5 @@
 test-config:
-  message1: "Message from config server [common branch any application local profile] env!"
+  message: "Message from config server [common branch any application local profile] env!"
 
 management:
   endpoints:

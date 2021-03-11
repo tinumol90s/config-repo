@@ -1,5 +1,5 @@
 test-config:
-  message1: "Message from config server [common branch authorization-api-v1 application local profile] env!"
+  message: "Message from config server [common branch authorization-api-v1 application local profile] env!"
 
 management:
   endpoints:
