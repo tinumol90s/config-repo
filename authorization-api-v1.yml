@@ -1,2 +1,2 @@
 test-config:
-  message: "Message from config server [common branch authorization-api-v1 application no profile] env!"
+  message: "Message from config server [common branch authorization-api-v1 application no specific profile] env!"
